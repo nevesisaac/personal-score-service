@@ -17,7 +17,6 @@ public class UsuarioScore {
     @GetMapping("/score")
     public ResponseUserAnalysysScore getScore(RequestUserAnalysysScore user){
         ResponseUserAnalysysScore userResponse = serviceUsuarioScore.obterAnaliseService(user);
-        System.out.println("hehe");
         return userResponse;
     }
 }
