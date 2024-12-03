@@ -8,15 +8,11 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class ResponseUserAnalysysScore {
+public class ResponseUserAnalysys {
 
     @JsonProperty("score")
     private int internalScore;
 
     @JsonProperty("reason")
     private String reasonsScore; 
-
-    @JsonProperty("Ai_indication")
-    private String aiResponse;
-    
 }

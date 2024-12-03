@@ -1,23 +1,24 @@
-package com.logic.personal_score_service.request;
+package com.logic.personal_score_service.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@NoArgsConstructor
+@Builder
 @Getter
 @Setter
-public class RequestUserAnalysysScore {
-
+public class DadosAnaliseUsuarioEmpresa {
     @JsonProperty("nome")
     private String nome;
 
-    @JsonProperty("cpf")
-    private String cpf;
+    @JsonProperty("cnpj")
+    private String cnpj;
+
+    @JsonProperty("cep")
+    private String cep;
 
     @JsonProperty("telefone")
     private String telefone;
-    
 }

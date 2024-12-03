@@ -1,4 +1,4 @@
-package com.logic.personal_score_service.response;
+package com.logic.personal_score_service.response.extern;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
