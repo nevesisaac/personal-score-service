@@ -1,1 +1,6 @@
 services:
+  app: 
+    image: personal-score-service:latest
+    container_name: competent_waterbraker
+    ports: 
+    - "8000:8080"
