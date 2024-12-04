@@ -19,7 +19,7 @@ public class ResponseCnpjAnalysys {
     @JsonProperty("cep")
     private String cep;
 
-    @JsonProperty("qsa")
-    private List<HashMap<String,String>> atributos;
+    @JsonProperty("descricao_situacao_cadastral")
+    private String atributos;
 
 }
